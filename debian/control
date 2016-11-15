@@ -1,0 +1,20 @@
+Source: testing-debian
+Section: unknown
+Priority: optional
+Maintainer: Daniel Ziegler <daniel@open-itcockpit.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/testing-debian.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/testing-debian.git;a=summary
+
+Package: testing-debian
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, cmatrix
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: testing-debian-doc
+Architecture: all
+Description: documentation for testing-debian
+ <insert long description, indented with spaces>
